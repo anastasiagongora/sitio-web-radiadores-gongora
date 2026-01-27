@@ -1,0 +1,74 @@
+/* =========================
+   DESKTOP (>= 1200px)
+========================= */
+
+header {
+    height: 480px;
+}
+
+header img {
+    width: 600px;
+    height: 170px;
+}
+
+.header--title-container {
+    max-width: 1100px;
+}
+
+.header--title-container h1 {
+    font-size: 4rem;
+    line-height: 4.4rem;
+}
+
+.header--title-container p {
+    font-size: 2.6rem;
+    margin-top: 18px;
+}
+
+/* BOTÓN */
+.header--title-container .header--button {
+    left: calc(50% - 148px);
+    top: 400px;
+    padding: 10px;
+    width: 299px;
+    font-size: 2rem;
+}
+
+/* CONTENEDORES */
+.main-exchange-container--title,
+.workshop-detail--title,
+.other--title {
+    max-width: 1100px;
+}
+
+/* IMÁGENES GRANDES */
+.main-exchange-container .background-img {
+    width: 620px;
+    height: 340px;
+    background-image: url('../assets/img/fachada.jpg');
+}
+
+.workshop-background--img {
+    width: 620px;
+    height: 340px;
+}
+
+/* TARJETAS */
+.workshop-mision--card,
+.workshop-vision--card {
+    max-width: 480px;
+}
+
+/* OTROS SERVICIOS */
+.other-container--card {
+    max-width: 320px;
+}
+
+/* FOOTER */
+footer {
+    padding: 40px 80px;
+}
+
+.footer-location iframe {
+    height: 180px;
+}
