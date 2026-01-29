@@ -543,19 +543,6 @@ main {
     color: var(--gray);
 }
 
-.oil-card--ac, .batery-card--ac {
-    width: 150px;
-    height: 48px;
-    margin-top: 20px;
-    background-color: var(--warm-black);
-    border: 2px solid var(--warm-yellow);
-    border-radius: 4px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    color: #ffffff;
-}
-
 .tire-change {
     position: absolute;
     padding: 6px;
@@ -567,19 +554,6 @@ main {
     background-color: var(--red);
     border-radius: 8px;
     color: var(--white);
-}
-
-.tire-card--ac {
-    width: 150px;
-    height: 48px;
-    margin-top: 20px;
-    background-color: var(--warm-black);
-    border: 2px solid var(--red);
-    border-radius: 4px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    line-height: 1.8rem;
-    color: #ffffff;
 }
 
 footer {
